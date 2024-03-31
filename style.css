@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+}
+/* navbar */
+.navbar{
+    height:60px;
+    background-color: #f21e53;
+    color:#fcfcfc;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-logo{
+    height:51px;
+    width:149px;
+}
+.logo{
+height: 51px;
+width:100%;
+background-image: url("foodexpress_new.png");
+background-size: cover;
+}
+.border{
+    border: 2px solid transparent;
+    margin: 3px;
+}
+.border:hover{
+    border: 2px solid rgb(65, 61, 61);
+    border-radius: 18%;
+   
+}
+.searchbar{
+   width:65%;
+   height:40px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 4px;
+}
+.searchbar:hover{
+    border: 2px solid rgb(173, 172, 168);
+    border-radius: 6.5px;
+}
+.search{
+    width:100%;
+    border:none;
+    font-size: 1.05rem;
+    border-top-left-radius: 0.2rem;
+    border-bottom-left-radius: 0.2rem;
+}
+.search-icon{
+    width:45px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+    background-color:rgb(214, 213, 210) ;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+    font-size: 1.2rem;
+}
+.nav-second{
+    font-size: o.85rem;
+    font-weight: 700;
+}
+.nav-cart{
+    font-size: o.87rem;
+  
+}
+.nav-cart i{
+    font-size: 20px;
+}
+/* panel */
+.panel{
+    height:40px;
+    background-color: #f0ebf0;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-all{
+    font-weight: 400;
+}
+.panel-ops p{
+    display:inline;
+    margin-left: 13px;
+}
+.panel-ops{
+    width:90%;
+text-align: left;
+font-size: 0.95rem;
+font-weight: 400;
+margin-left: -1px;
+}
+/* hero section */
+.hero-sec{
+    background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.8) 0, rgba(27, 27, 27, 0) 60%, rgba(0, 0, 0, 0.8) 100% ), url("food_hero_image.jpeg");
+    height:600px;
+    width: 100%;
+    background-size: cover;  
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color:transparent;
+    color: white;
+    text-align: center;
+ height:200px;
+ padding-bottom: 190px;
+}
+.hero-msg button{
+    height: 40px;
+    width: 170px;
+    border-radius: 8px;
+    color: white;
+    background-color: #f21e53;
+    border: none;
+    font-size:20px;
+    box-shadow: #0f1111;
+}
+.hero-msg button:hover{
+background-color: #c21927;
+}
+/*about us*/
+
+.sub1{
+    height: 386px;
+    display: flex; 
+    justify-content: space-evenly; 
+  padding: 80px 0px 38px 70px;
+}
+.con1{
+    text-align: left;
+    color: black;
+    height:auto;
+    width: 100%;
+    }
+    .con1 h1{
+       font-size: 44px;
+       font-weight: 800;
+       padding: -1px 200px 300px 80px;
+    }
+    .con1 p{
+        font-size: 24px;
+        width: 58%;
+    }
+    .sub2{
+        height: 386px;
+        display: flex; 
+        justify-content: space-evenly; 
+      padding: 80px 0px 38px 70px;
+      background-color: #f21e53;
+    }
+    .con2{
+        text-align: left;
+        color: white;
+        height:auto;
+        width: 100%;
+        }
+        .con2 h1{
+           font-size: 44px;
+           font-weight: 800;
+           padding: -1px 200px 300px 80px;
+        }
+        .text{
+            font-size: 20px;
+            width: 58%;
+        }
+.text li{
+    margin-bottom: 3%;
+}
+.footer{
+    height: 80px;
+    width:100%;
+    background-color: #222424;
+    color: white;
+    text-align: left;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+.footer p{
+    margin: 1.5px 0px 1.5px 30px;
+}
+.end{
+    height: 20px;
+    width: 100%;
+    background-color: #161616;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    text-align: center;
+}
+#tv-image{
+    height: 423px;
+    width: 352px;
+    padding-bottom:17px;
+    margin-right: 110px;
+}
